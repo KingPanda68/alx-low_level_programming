@@ -3,7 +3,9 @@
 /*
 * main - Entry point
 *
-* * Return: Always 0 (Success)
+* Description: prints a string
+*
+* * Return: Always 0
 */
 int main(void)
 {
