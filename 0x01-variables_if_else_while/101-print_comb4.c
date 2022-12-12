@@ -18,14 +18,16 @@ int main(void)
 			for (j = 50; j <= 57; j++)
 			{
 				if (j > i && i > f_d)
-				putchar(f_d);
-				putchar(i);
-				putchar(j);
-					if (i <= 56 && j <= 57 && f_d < 55)
 				{
-					putchar(44);
-					putchar(32);
-				}
+					putchar(f_d);
+					putchar(i);
+					putchar(j);
+				}	
+					if (i <= 56 && j <= 57 && f_d < 55)
+					{
+						putchar(44);
+						putchar(32);
+					}
 			}
 		}
 	}
