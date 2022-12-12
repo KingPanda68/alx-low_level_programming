@@ -22,7 +22,7 @@ int main(void)
 					putchar(f_d);
 					putchar(i);
 					putchar(j);
-				}	
+				}
 					if (i <= 56 && j <= 57 && f_d < 55)
 					{
 						putchar(44);
@@ -31,8 +31,8 @@ int main(void)
 			}
 		}
 	}
-}
 
 	putchar(10);
 
 	return (0);
+}
