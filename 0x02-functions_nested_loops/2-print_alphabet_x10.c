@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *  * print_alphabet_x10 - this is the entry point of the program
- *   * Description: this function prints the alphabets in lowercase ten times
- *    */
+* print_alphabet_x10 - this is the entry point of the program
+* Description: this function prints the alphabets in lowercase ten times
+*/
 
 void print_alphabet_x10(void)
 {
