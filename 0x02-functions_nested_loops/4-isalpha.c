@@ -1,18 +1,13 @@
-#include "main.h"
-
+include "main.h"
 /**
-* _isalpha - this is the entry point of the program
-* @input: its takes in chat
-* Description: this function returns 1 or 0
-* Return: 1 is true and 0 is false
+* _isalpha - a function that checks for alphabetic character
+* @c: single letter input
+* Return: 1 if c is a letter (lower or uppercase), 0 otherwise
 */
-
-int _isalpha(int input)
+int _isalpha(int c)
 {
-	if ((input >= 65  && input <= 90) || (input >= 97 && input <= 122))
-	{
+	if (((c >= 'a') && (c <= 'z')) || ((c >= 'A') && (c <= 'Z')))
 		return (1);
-	}
-
+	else
 	return (0);
 }
