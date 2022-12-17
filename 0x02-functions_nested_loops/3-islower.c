@@ -1,18 +1,14 @@
 #include "main.h"
 
 /**
-* _islower - this is the entry point of the program
-* @input: its takes in chat
-* Description: this function returns 1 or 0
-* Return: 1 is true and 0 is false
+* _islower - a function that checks for lowercase character
+* @c: single letter input
+* Return: 1 if int c is lowercase, 0 if otherwise
 */
-
-int _islower(int input)
+int _islower(int c)
 {
-	if (input >= 97 && input <= 122)
-	{
+	if (c >= 'a' && c <= 'z')
 		return (1);
-	}
-
-	return (0);
+	else
+		return (0);
 }
